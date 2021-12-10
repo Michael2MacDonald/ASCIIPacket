@@ -1,0 +1,32 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ASCIIPacket	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# YOUR_FUNCTION	KEYWORD2
+update	KEYWORD2
+available	KEYWORD2
+flush	KEYWORD2
+get	KEYWORD2
+peek	KEYWORD2
+send	KEYWORD2
+decode	KEYWORD2
+encode	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+# YOUR_INSTANCE	KEYWORD2
+ASCIIPacket	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# YOUR_CONST	LITERAL1
