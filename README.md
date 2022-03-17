@@ -8,13 +8,15 @@ Packets contain two sections of data; the Header and the Text. This can be usefu
 
 You can send and receive individual ASCII control characters like `ACK`/`NAK`/`ENQ` using the __INSERT_FUNC__ and __INSERT_FUNC__ functions. This can be useful to add more functionality to your application.
 
+|~~SOH~~|STX|LEN|Command|Value|Length|
+
 **ASCII Control Characters**
 
 These are the ASCII control characters this library makes use of for packets:
 
 |Name|Description|Command|Value|Length|
 |----|-----------|-------|-----|------|
-|Start of Header|Start Of Packet Header|SOH `0x01`|N/A|N/A|
+|~~Start of Header~~|~~Start Of Packet Header~~|~~SOH `0x01`~~|N/A|N/A|
 |Start Of Text|Start Of Packet Data|STX `0x02`|N/A|N/A|
 |End Of Text|End Of Packet Data|ETX `0x03`|N/A|N/A|
 |End Of Transmission|End Of Packet|EOT `0x04`|N/A|N/A|
